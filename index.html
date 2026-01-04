@@ -2,12 +2,43 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>我的个人网站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabaDog 的创作空间</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>你好，世界！</h1>
-    <p>这是我的个人小站，正在建设中...</p>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">HabaDog</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active" data-page="projects"><i class="fas fa-code"></i> 项目</a></li>
+            <li><a href="#" data-page="blog"><i class="fas fa-blog"></i> 博客</a></li>
+            <li><a href="#" data-page="music"><i class="fas fa-music"></i> 音乐</a></li>
+            <li><a href="#" data-page="essays"><i class="fas fa-pen-fancy"></i> 随笔</a></li>
+            <li><a href="#" data-page="photos"><i class="fas fa-camera"></i> 摄影</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="container">
+        <header class="hero">
+            <h1>你好，我是 HabaDog</h1>
+            <p>这里汇集了我的代码、文字、音乐与镜头下的世界。</p>
+        </header>
+
+        <section id="content-section">
+            <!-- 这里的内容会由JavaScript动态加载 -->
+            <div class="loading">正在加载内容...</div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>© 2023 HabaDog. 由 GitHub Pages 驱动。</p>
+    </footer>
+
+    <!-- 脚本 -->
     <script src="script.js"></script>
 </body>
 </html>
