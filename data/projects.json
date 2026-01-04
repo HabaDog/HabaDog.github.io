@@ -1,1 +1,26 @@
-
+[
+  {
+    "title": "智能天气助手",
+    "description": "一个基于Python和Flask构建的Web应用，提供实时天气与穿衣建议。",
+    "techStack": ["Python", "Flask", "OpenWeather API", "Bootstrap"],
+    "demoLink": "https://demo.example.com",
+    "codeLink": "https://github.com/yourusername/weather-app",
+    "imageUrl": "assets/project-weather.jpg"
+  },
+  {
+    "title": "像素艺术生成器",
+    "description": "一个在浏览器中运行的互动工具，允许用户创建并导出8-bit风格像素画。",
+    "techStack": ["JavaScript", "HTML5 Canvas", "Vue.js"],
+    "demoLink": "https://demo.example.com/pixel",
+    "codeLink": "https://github.com/yourusername/pixel-art-generator",
+    "imageUrl": "assets/project-pixel.jpg"
+  },
+  {
+    "title": "个人笔记系统",
+    "description": "一个本地优先的Markdown笔记应用，支持标签管理和全文搜索。",
+    "techStack": ["Electron", "Node.js", "Marked"],
+    "demoLink": null,
+    "codeLink": "https://github.com/yourusername/note-system",
+    "imageUrl": "assets/project-notes.jpg"
+  }
+]
