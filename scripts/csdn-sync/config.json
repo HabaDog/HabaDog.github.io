@@ -1,0 +1,19 @@
+{
+  "csdn": {
+    "username": "你的CSDN用户名",  // 例如："HabaDog"
+    "rssUrl": "https://blog.csdn.net/{username}/rss/list",
+    "maxPosts": 20,  // 最多同步的文章数
+    "syncIntervalDays": 7  // 同步间隔天数
+  },
+  "site": {
+    "author": "HabaDog",
+    "avatar": "images/avatar.jpg",  // 你的头像
+    "categories": ["技术", "前端", "后端", "算法", "随笔"],
+    "defaultCover": "images/blog-default.jpg"  // 默认封面图
+  },
+  "paths": {
+    "outputJson": "data/blog.json",
+    "markdownDir": "blog-posts/",
+    "imageDir": "images/blog/"
+  }
+}
